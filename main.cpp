@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Name.h"
-#include "Andrejs.h"
+#include "Eduards.h"
 using namespace std;
 
 int main()
@@ -8,10 +8,10 @@ int main()
 	const int array_size = 1;
 	Name *Names[array_size];
 	
-	Andrejs a;
-	a.setName("Andrejs");
-	
-	Names[0] = &a;
+	Eduards e;
+	e.setName("Eduards");
+
+	Names[1] = &e;
 	
 	for (int i=0; i<array_size; i++)
 		Names[i]->Print();
